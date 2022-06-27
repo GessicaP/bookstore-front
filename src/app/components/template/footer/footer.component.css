@@ -3,9 +3,10 @@
     bottom: 0;
     background-color: black;
     font-size: 1rem;
-   justify-content: flex-end;
+    justify-content: flex-end;
+    height: 5%;
 }
 
-span{
+.rodape{
     color: white;
 }
