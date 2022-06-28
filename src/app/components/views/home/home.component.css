@@ -5,6 +5,10 @@
 
 }
 
+.titles, .subtitle{
+    color: white;
+}
+
 @media(max-width:450px){
     .home{
         width: 70%;
