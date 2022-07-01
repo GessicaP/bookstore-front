@@ -26,9 +26,10 @@ button{
     padding-left: 2rem;
     padding-right: 2rem;
 }
- input, textarea{
+ input, textarea, ::placeholder{
     color: aliceblue;
 }
 mat-label{
     color: #b773dc;
 }
+
