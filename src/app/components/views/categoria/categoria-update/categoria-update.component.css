@@ -26,14 +26,9 @@ button{
     padding-left: 2rem;
     padding-right: 2rem;
 }
-input, textarea{
-    color: white;
-}
-
-:disabled{
+ input, textarea{
     color: aliceblue;
 }
-
 mat-label{
     color: #b773dc;
 }
