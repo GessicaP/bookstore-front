@@ -2,7 +2,7 @@
     <h1>ATUALIZANDO LIVRO</h1>
     <mat-form-field class="form">
         <mat-label>Título</mat-label>
-        <input [(ngModel)]="livro.titulo"atInput [formControl]="titulo" required type="text" matInput name="titulo" placeholder="Ex: Curso Spring Boot com Angular" maxlength="100" >
+        <input [(ngModel)]="livro.titulo" [formControl]="titulo" required type="text" matInput name="titulo" placeholder="Ex: Curso Spring Boot com Angular" maxlength="100" >
         <mat-error *ngIf="titulo.invalid">{{getMessage()}}</mat-error>
     </mat-form-field>
     
